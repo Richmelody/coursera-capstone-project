@@ -1,14 +1,13 @@
 /* Header.css */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px; /* Adjust padding as needed */
-  }
-  
-  .header-image-left {
-    /* Add any styles for your image as needed */
-    max-width: 175px; /* Adjust the max-width as needed */
-    margin-left: 25px; /* Adjust margin as needed */
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px; /* Adjust padding as needed */
+}
+
+.header-image-left {
+  /* Add any styles for your image as needed */
+  max-width: 175px; /* Adjust the max-width as needed */
+  margin-left: 150px; /* Adjust margin as needed */
+}
