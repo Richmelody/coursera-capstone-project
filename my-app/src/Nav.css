@@ -87,13 +87,13 @@
   position: absolute;
   top: 80px;
   right: 0;
-  min-width: 320px;
-  padding-right: 20px;
-  padding-left: 20px;
+  min-width: 200px;
+  padding-right: 35px;
+  /* padding-left: px; */
   box-shadow: 0px 2px 5px rgba(15, 15, 15, 0.2);
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /* Styling for individual links in the dropdown menu */
@@ -107,11 +107,6 @@
   transition: color 0.3s ease-in-out; /* Adjust the transition property */
 }
 
-/* Hover effect for links in the dropdown menu */
-.menu-links a:hover {
-  color: grey; /* Adjust the color as needed */
-}
-
 /* Remove default list styling for the dropdown menu */
 .menu-links li {
   list-style: none;
@@ -120,8 +115,7 @@
 /* Open state for the dropdown menu */
 .menu-links.open {
   max-height: 300px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 /* Animation for the individual lines of the hamburger icon in the open state */
