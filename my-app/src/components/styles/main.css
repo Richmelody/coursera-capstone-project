@@ -1,0 +1,127 @@
+/* main.css */
+
+.text-container h1,
+.text-container h2,
+.text-container p {
+  color: #fff;
+  font-family: "Markazi Text", serif;
+  transition: color 0.5s ease; /* Add transition to color property */
+}
+
+.text-container h1 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.text-container h2 {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+.text-container p {
+  font-size: 24px;
+  max-width: 350px;
+  margin-bottom: 25px;
+}
+
+.button-container {
+  text-align: left;
+}
+
+.button-container button {
+  background-color: #d4c02a;
+  color: #000000;
+  font-family: "Markazi Text", serif;
+  font-size: 28px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.5s ease, color 0.5s ease; /* Add transition to background-color and color properties */
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #267f4e;
+  padding: 20px;
+  margin-top: 80px;
+  position: relative;
+  transition: padding 0.5s ease; /* Add transition to padding property */
+}
+
+.text-container {
+  max-width: 60%;
+  padding: 50px;
+  margin-left: 80px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 2;
+  transition: max-width 0.5s ease, margin-left 0.5s ease, margin-top 0.5s ease; /* Add transition to max-width, margin-left, and margin-top properties */
+}
+
+.text-container h1 {
+  color: #d4c02a;
+}
+
+.text-container h2,
+.text-container p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  text-align: left;
+}
+
+/* ... (remaining styles) ... */
+
+.image-container {
+  max-width: 40%;
+  padding: 50px;
+  margin-left: 5em;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  z-index: 1;
+}
+
+.image-container img {
+  width: 75%;
+  border-radius: 30px;
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 1000px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-container {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .button-container button {
+    margin-top: 20px;
+  }
+
+  .image-container {
+    display: none; /* Hide the image below a certain screen size */
+  }
+
+  /* Center text elements */
+  .text-container {
+    text-align: center;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+}
